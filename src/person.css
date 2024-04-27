@@ -1,0 +1,101 @@
+
+.page {
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 23rem;
+    border-radius: .5rem;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    color: rgb(72, 71, 71);
+    background-color: #fcf8f8dd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    margin-top: 1rem;
+    width: 17rem;
+    height: 15rem;
+    border-radius: 50%;
+    
+   
+}
+.title{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.hor-divider {
+    background-color:#2E2C5D;
+    width: 14rem;
+    height: 0.1rem;
+    text-align: center;
+    border-radius: 2rem;
+    margin-bottom: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details{
+  text-align: start; 
+  padding: 1.4rem; 
+}
+.details span{
+    font-weight: bold;
+}
+.details :nth-child(2){
+    margin-top: 2rem;
+}
+.details :last-child{
+    margin-top: .7rem;
+}
+
+
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    background-image: linear-gradient(144deg,#57dff7, #0a93a2 50%,#00ebbc);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: .5em;
+    width: 80%;
+    padding: 19px 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button:active,
+button:hover {
+    outline: 0;
+}
+
+.timer{
+  border: solid .1rem #dddd;
+  width: 20%;
+  height: 2.6rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 0.8rem;
+  position: absolute;
+  top : 0rem;
+  left: 1rem
+
+}
